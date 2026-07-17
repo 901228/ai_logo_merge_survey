@@ -4,32 +4,32 @@
     "good": [
       {
         "title": "範例一",
-        "logo": "images/samples/good/logo_01.png",
-        "material": "images/samples/good/material_01.png",
-        "result": "images/samples/good/result_01.png"
+        "logo": "images/samples/good/logo_01.webp",
+        "material": "images/samples/good/material_01.webp",
+        "result": "images/samples/good/result_01.webp"
       },
       {
         "title": "範例二",
-        "logo": "images/samples/good/logo_02.png",
-        "material": "images/samples/good/material_02.png",
-        "result": "images/samples/good/result_02.png"
+        "logo": "images/samples/good/logo_02.webp",
+        "material": "images/samples/good/material_02.webp",
+        "result": "images/samples/good/result_02.webp"
       },
       {
         "title": "範例三",
-        "logo": "images/samples/good/logo_03.png",
-        "material": "images/samples/good/material_03.png",
-        "result": "images/samples/good/result_03.png"
+        "logo": "images/samples/good/logo_03.webp",
+        "material": "images/samples/good/material_03.webp",
+        "result": "images/samples/good/result_03.webp"
       }
     ],
     "structureLoss": {
-      "logo": "images/samples/structure_loss_logo.png",
-      "material": "images/samples/structure_loss_material.png",
-      "result": "images/samples/structure_loss_result.png"
+      "logo": "images/samples/structure_loss_logo.webp",
+      "material": "images/samples/structure_loss_material.webp",
+      "result": "images/samples/structure_loss_result.webp"
     },
     "textureLoss": {
-      "logo": "images/samples/texture_loss_logo.png",
-      "material": "images/samples/texture_loss_material.png",
-      "result": "images/samples/texture_loss_result.png"
+      "logo": "images/samples/texture_loss_logo.webp",
+      "material": "images/samples/texture_loss_material.webp",
+      "result": "images/samples/texture_loss_result.webp"
     }
   },
   "cases": [

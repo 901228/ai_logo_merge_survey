@@ -43,7 +43,7 @@ def gen_list():
 def copy_image(input_path, output_path):
     from PIL import Image
 
-    Image.open(input_path).save(output_path.with_suffix(".webp"), "webp", lossless=True)
+    Image.open(input_path).resize((512, 512)).save(output_path.with_suffix(".webp"), "webp", lossless=True)
 
 
 def make_list():
@@ -96,5 +96,9 @@ def make_list():
 
 
 if __name__ == "__main__":
-    gen_list()
-    # make_list()
+    import sys
+
+    if sys.argv[1] == "gen":
+        gen_list()
+    elif sys.argv[1] == "copy":
+        make_list()

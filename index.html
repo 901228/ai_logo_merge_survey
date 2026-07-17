@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>LOGO × 材質 融合問卷</title>
+        <meta property="og:title" content="LOGO × 材質 融合問卷" />
+        <meta
+            property="og:description"
+            content="這是一份user study，旨在評估品牌 Logo 與真實材質的視覺融合表現。" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:url"
+            content="https://901228.github.io/survey/" />
+
+        <!-- ===== 離線版（建議）：改用本機 vendor/ 檔案，不依賴 CDN ===== -->
+        <!-- 若你已把檔案放到 /survey/vendor/，請用下面三行（取消註解）：
+  <link rel="stylesheet" href="./vendor/modern.min.css">
+  <script src="./vendor/survey.core.min.js"></script>
+  <script src="./vendor/survey-ui.min.js"></script>
+  -->
+
+        <!-- ===== 線上 CDN 版（可作為備援；若被擋就改用上面離線版） ===== -->
+        <link
+            href="https://unpkg.com/survey-core/survey-core.min.css"
+            type="text/css"
+            rel="stylesheet" />
+
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/survey-core/survey.core.min.js"></script>
+        <script
+            type="text/javascript"
+            src="https://unpkg.com/survey-js-ui/survey-js-ui.min.js"></script>
+
+        <style>
+            :root {
+                color-scheme: light;
+                --img-size: 280px;
+            }
+            html,
+            body {
+                height: 100%;
+            }
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans TC',
+                    'Segoe UI', Roboto, Arial, sans-serif;
+                background: #f7f7f8;
+                margin: 0;
+            }
+            #wrap {
+                max-width: 1500px;
+                margin: 24px auto;
+                padding: 0 16px;
+            }
+            .sv-root-modern {
+                background: #fff;
+                border-radius: 16px;
+                box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+                padding: 24px;
+            }
+            .intro {
+                margin-bottom: 8px;
+                color: #333;
+            }
+            .metaRow {
+                display: flex;
+                gap: 16px;
+                margin: 12px 0 4px;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .metaCol {
+                display: flex;
+                flex-direction: column;
+                gap: 6px;
+            }
+            .metaCol img {
+                width: 220px;
+                height: 220px;
+                object-fit: cover;
+                border-radius: 12px;
+                border: 1px solid #ddd;
+            }
+            .sv-progress__text {
+                font-weight: 600;
+            }
+            .sd-body.sd-body--static {
+                max-width: 960px; /* 或者 calc(120 * var(--base-unit)) */
+            }
+            .notice {
+                padding: 16px;
+                background: #fff3cd;
+                border: 1px solid #ffeeba;
+                border-radius: 8px;
+                color: #856404;
+            }
+            footer {
+                color: #777;
+                font-size: 12px;
+                text-align: center;
+                margin: 16px 0 24px;
+            }
+
+            /* —— 範例頁 —— */
+            .sampleList {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                margin-top: 12px;
+            }
+            .sampleBlock {
+                background: #fafafa;
+                border: 1px solid #e5e7eb;
+                border-radius: 12px;
+                padding: 12px;
+            }
+            .sampleHeader {
+                font-weight: 700;
+                margin: 0 0 8px;
+            }
+            .sampleCol {
+                flex: 1 1 0;
+                min-width: 0;
+                display: flex;
+                flex-direction: column;
+            }
+            .sampleImg {
+                width: 100%; /* 每張圖在各自欄位內等寬 */
+                height: auto; /* 高度自適應（依比例縮放） */
+                object-fit: contain; /* 保持完整圖像，不裁切 */
+                border-radius: 10px;
+                border: 1px solid #ddd;
+                background: #fff;
+            }
+            .sampleLabel {
+                font-size: 12px;
+                color: #555;
+                margin-top: 6px;
+                text-align: center;
+            }
+            .sampleRow {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+                gap: 10px;
+            }
+            .resultCol {
+                position: relative;
+            }
+            .checkmark {
+                position: absolute;
+                top: 6px;
+                right: 6px;
+                width: 40px;
+                height: 40px;
+                background-color: white;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+                z-index: 10;
+            }
+
+            /* 小螢幕時允許換行；仍保持每張圖等寬各欄等寬 */
+            @media (max-width: 900px) {
+                .sampleRow {
+                    flex-wrap: wrap;
+                }
+                .qPairRow {
+                    flex-wrap: wrap;
+                }
+            }
+            /* —— 每題的材質圖 × 設計圖：左右併排 ——
+    .qPairRow{display:flex;gap:16px;align-items:flex-start;flex-wrap:nowrap}
+    .qPairCol{flex:1 1 0;min-width:0;display:flex;flex-direction:column}*/
+
+            /* 整排置中排版 */
+            .qPairRow {
+                display: flex;
+                gap: 16px;
+                justify-content: center; /* 讓兩張圖置中 */
+                align-items: flex-start;
+                flex-wrap: nowrap;
+            }
+
+            /* 單一欄：把 DOM 的「圖片在上、文字在下」反轉成「文字在上、圖片在下」 */
+            .qPairCol {
+                display: flex;
+                flex-direction: column; /* 反轉順序 */
+                align-items: center; /* 內容置中 */
+                text-align: center;
+            }
+            .qPairImg {
+                /* 不超過容器與變數上限，且不會被強制放大 */
+                width: auto;
+                height: auto;
+                max-width: min(100%, var(--img-size));
+                max-height: var(--img-size);
+                object-fit: contain; /* 不裁切、不變形；要鋪滿可改 cover */
+                border-radius: 12px;
+                border: 1px solid #ddd;
+                background: #fff;
+            }
+
+            /* 標籤文字放在圖片上方、置中，與圖片留間距 */
+            .qPairLabel {
+                margin-top: 12px;
+                margin-bottom: 12px; /* 文字與下方圖片的距離 */
+                font-size: 14px;
+                color: #555;
+            }
+
+            .sv-page,
+            .sv-body {
+                overflow: visible !important;
+            }
+
+            /* ===== ImagePicker：移除遮罩，改藍框＋右上圓點（同時支援 .sv- 與 .sd- 前綴） ===== */
+            /* 下面 imagepicker（SurveyJS 常見 class 都一起覆蓋） */
+            .sv-imagepicker .sv-imagepicker__image,
+            .sv-imagepicker .sv-image__image,
+            .sv-imagepicker .sv-imagepicker__item {
+                width: var(--img-size) !important;
+                height: var(--img-size) !important;
+                max-width: none !important;
+            }
+            .sv-imagepicker .sv-image__image {
+                object-fit: contain;
+            } /* 或 cover */
+            /* 讓角落圓點能定位 */
+            .sv-imagepicker__item,
+            .sd-imagepicker__item {
+                position: relative;
+            }
+
+            /* 不要泛白/變暗 */
+            .sv-imagepicker__image,
+            .sd-imagepicker__image {
+                opacity: 1 !important;
+                filter: none !important;
+                transition: box-shadow 0.15s, border 0.15s, transform 0.05s;
+            }
+
+            /* 關掉各種 overlay（不同版本實作不一樣，全部關） */
+            .sv-imagepicker__image .sv-imagepicker__image--overlay,
+            .sd-imagepicker__image .sd-imagepicker__image--overlay {
+                display: none !important;
+                opacity: 0 !important;
+            }
+            .sv-imagepicker__image::before,
+            .sd-imagepicker__image::before {
+                display: none !important;
+                content: none !important;
+            }
+
+            /* ★ 被選取：藍色外框（以 input:checked 判斷，版本最穩） */
+            .sv-imagepicker__item input:checked ~ .sv-imagepicker__image,
+            .sd-imagepicker__item input:checked ~ .sd-imagepicker__image {
+                border: 3px solid #2563eb !important;
+                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+            }
+
+            /* 右上角小圓點指示 */
+            .sv-imagepicker__item input:checked ~ .sv-imagepicker__image::after,
+            .sd-imagepicker__item
+                input:checked
+                ~ .sd-imagepicker__image::after {
+                content: '';
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                width: 14px;
+                height: 14px;
+                border-radius: 50%;
+                background: #2563eb;
+                box-shadow: 0 0 0 2px #fff, 0 0 0 4px #2563eb;
+            }
+
+            /* hover / 鍵盤聚焦：弱提示，不變白 */
+            .sv-imagepicker__item:hover .sv-imagepicker__image,
+            .sv-imagepicker__item:focus-within .sv-imagepicker__image,
+            .sd-imagepicker__item:hover .sd-imagepicker__image,
+            .sd-imagepicker__item:focus-within .sd-imagepicker__image {
+                box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+                transform: translateZ(0);
+            }
+
+            .stickyIntroBlock {
+                position: sticky;
+                top: 0;
+                background-color: inherit; /* ✅ 跟父層一樣 */
+                z-index: 100;
+                padding: 8px;
+                border-bottom: 1px solid #ccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <div id="surveyContainer">載入中…</div>
+            <!--<footer>若頁面長時間無法載入，請檢查 <code>data.json</code> 與圖片路徑（大小寫需一致）。</footer>-->
+        </div>
+
+        <!-- 你的應用程式腳本（請放同層 app.js） -->
+        <script src="./app.js?v=2.0"></script>
+    </body>
+</html>

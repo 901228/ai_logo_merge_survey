@@ -43,7 +43,7 @@ def gen_list():
 def copy_image(input_path, output_path):
     from PIL import Image
 
-    Image.open(input_path).resize((512, 512)).save(output_path.with_suffix(".webp"), "webp", lossless=True)
+    Image.open(input_path).resize((512, 512)).save(output_path.with_suffix(".webp"), "webp", lossless=False)
 
 
 def make_list():

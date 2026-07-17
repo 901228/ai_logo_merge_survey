@@ -8,28 +8,28 @@ def gen_list():
         questions.append(
             {
                 "id": q_id,
-                "logo": f"images/questions/{q_id}/logo.png",
-                "material": f"images/questions/{q_id}/texture.png",
+                "logo": f"images/questions/{q_id}/logo.webp",
+                "material": f"images/questions/{q_id}/texture.webp",
                 "options": [
                     {
                         "value": "ours",
-                        "image": f"images/questions/{q_id}/ours.png",
+                        "image": f"images/questions/{q_id}/ours.webp",
                     },
                     {
                         "value": "stf",
-                        "image": f"images/questions/{q_id}/stf.png",
+                        "image": f"images/questions/{q_id}/stf.webp",
                     },
                     {
                         "value": "material_fusion",
-                        "image": f"images/questions/{q_id}/material_fusion.png",
+                        "image": f"images/questions/{q_id}/material_fusion.webp",
                     },
                     {
                         "value": "controlnet",
-                        "image": f"images/questions/{q_id}/controlnet.png",
+                        "image": f"images/questions/{q_id}/controlnet.webp",
                     },
                     {
                         "value": "ip_adapter",
-                        "image": f"images/questions/{q_id}/ip_adapter.png",
+                        "image": f"images/questions/{q_id}/ip_adapter.webp",
                     },
                 ],
             }
@@ -40,9 +40,14 @@ def gen_list():
     print(json.dumps(questions, indent=2))
 
 
+def copy_image(input_path, output_path):
+    from PIL import Image
+
+    Image.open(input_path).save(output_path.with_suffix(".webp"), "webp", lossless=True)
+
+
 def make_list():
     import csv
-    import shutil
     from pathlib import Path
     from typing import List
 
@@ -75,21 +80,21 @@ def make_list():
         dest.mkdir(exist_ok=True, parents=True)
 
         result = f"{result}.png"
-        shutil.copy(OURS / texture / f"{logo}.png", dest / "ours.png")
+        copy_image(OURS / texture / f"{logo}.png", dest / "ours.png")
 
-        shutil.copy(CONTROLNET / result, dest / "controlnet.png")
-        shutil.copy(IP_ADAPTER / result, dest / "ip_adapter.png")
+        copy_image(CONTROLNET / result, dest / "controlnet.png")
+        copy_image(IP_ADAPTER / result, dest / "ip_adapter.png")
 
         result = result.replace("brass_convex", "brass_convex_nobbox_0_60").replace(
             "chain_stitch_white_padding_outpainting", "chain_stitch_white_padding_outpainting_nobbox_0_60"
         )
-        shutil.copy(STF / result, dest / "stf.png")
-        shutil.copy(MATERIAL_FUSION / result, dest / "material_fusion.png")
+        copy_image(STF / result, dest / "stf.png")
+        copy_image(MATERIAL_FUSION / result, dest / "material_fusion.png")
 
-        shutil.copy(LOGOS / f"{logo}.png", dest / "logo.png")
-        shutil.copy(TEXTURES / f"{texture}.png", dest / "texture.png")
+        copy_image(LOGOS / f"{logo}.png", dest / "logo.png")
+        copy_image(TEXTURES / f"{texture}.png", dest / "texture.png")
 
 
 if __name__ == "__main__":
-    # gen_list()
-    make_list()
+    gen_list()
+    # make_list()

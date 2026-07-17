@@ -35,1351 +35,1351 @@
   "cases": [
     {
       "id": "q001",
-      "logo": "images/questions/q001/logo.png",
-      "material": "images/questions/q001/texture.png",
+      "logo": "images/questions/q001/logo.webp",
+      "material": "images/questions/q001/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q001/ours.png"
+          "image": "images/questions/q001/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q001/stf.png"
+          "image": "images/questions/q001/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q001/material_fusion.png"
+          "image": "images/questions/q001/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q001/controlnet.png"
+          "image": "images/questions/q001/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q001/ip_adapter.png"
+          "image": "images/questions/q001/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q002",
-      "logo": "images/questions/q002/logo.png",
-      "material": "images/questions/q002/texture.png",
+      "logo": "images/questions/q002/logo.webp",
+      "material": "images/questions/q002/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q002/ours.png"
+          "image": "images/questions/q002/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q002/stf.png"
+          "image": "images/questions/q002/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q002/material_fusion.png"
+          "image": "images/questions/q002/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q002/controlnet.png"
+          "image": "images/questions/q002/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q002/ip_adapter.png"
+          "image": "images/questions/q002/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q003",
-      "logo": "images/questions/q003/logo.png",
-      "material": "images/questions/q003/texture.png",
+      "logo": "images/questions/q003/logo.webp",
+      "material": "images/questions/q003/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q003/ours.png"
+          "image": "images/questions/q003/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q003/stf.png"
+          "image": "images/questions/q003/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q003/material_fusion.png"
+          "image": "images/questions/q003/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q003/controlnet.png"
+          "image": "images/questions/q003/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q003/ip_adapter.png"
+          "image": "images/questions/q003/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q004",
-      "logo": "images/questions/q004/logo.png",
-      "material": "images/questions/q004/texture.png",
+      "logo": "images/questions/q004/logo.webp",
+      "material": "images/questions/q004/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q004/ours.png"
+          "image": "images/questions/q004/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q004/stf.png"
+          "image": "images/questions/q004/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q004/material_fusion.png"
+          "image": "images/questions/q004/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q004/controlnet.png"
+          "image": "images/questions/q004/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q004/ip_adapter.png"
+          "image": "images/questions/q004/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q005",
-      "logo": "images/questions/q005/logo.png",
-      "material": "images/questions/q005/texture.png",
+      "logo": "images/questions/q005/logo.webp",
+      "material": "images/questions/q005/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q005/ours.png"
+          "image": "images/questions/q005/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q005/stf.png"
+          "image": "images/questions/q005/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q005/material_fusion.png"
+          "image": "images/questions/q005/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q005/controlnet.png"
+          "image": "images/questions/q005/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q005/ip_adapter.png"
+          "image": "images/questions/q005/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q006",
-      "logo": "images/questions/q006/logo.png",
-      "material": "images/questions/q006/texture.png",
+      "logo": "images/questions/q006/logo.webp",
+      "material": "images/questions/q006/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q006/ours.png"
+          "image": "images/questions/q006/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q006/stf.png"
+          "image": "images/questions/q006/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q006/material_fusion.png"
+          "image": "images/questions/q006/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q006/controlnet.png"
+          "image": "images/questions/q006/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q006/ip_adapter.png"
+          "image": "images/questions/q006/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q007",
-      "logo": "images/questions/q007/logo.png",
-      "material": "images/questions/q007/texture.png",
+      "logo": "images/questions/q007/logo.webp",
+      "material": "images/questions/q007/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q007/ours.png"
+          "image": "images/questions/q007/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q007/stf.png"
+          "image": "images/questions/q007/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q007/material_fusion.png"
+          "image": "images/questions/q007/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q007/controlnet.png"
+          "image": "images/questions/q007/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q007/ip_adapter.png"
+          "image": "images/questions/q007/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q008",
-      "logo": "images/questions/q008/logo.png",
-      "material": "images/questions/q008/texture.png",
+      "logo": "images/questions/q008/logo.webp",
+      "material": "images/questions/q008/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q008/ours.png"
+          "image": "images/questions/q008/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q008/stf.png"
+          "image": "images/questions/q008/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q008/material_fusion.png"
+          "image": "images/questions/q008/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q008/controlnet.png"
+          "image": "images/questions/q008/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q008/ip_adapter.png"
+          "image": "images/questions/q008/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q009",
-      "logo": "images/questions/q009/logo.png",
-      "material": "images/questions/q009/texture.png",
+      "logo": "images/questions/q009/logo.webp",
+      "material": "images/questions/q009/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q009/ours.png"
+          "image": "images/questions/q009/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q009/stf.png"
+          "image": "images/questions/q009/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q009/material_fusion.png"
+          "image": "images/questions/q009/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q009/controlnet.png"
+          "image": "images/questions/q009/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q009/ip_adapter.png"
+          "image": "images/questions/q009/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q010",
-      "logo": "images/questions/q010/logo.png",
-      "material": "images/questions/q010/texture.png",
+      "logo": "images/questions/q010/logo.webp",
+      "material": "images/questions/q010/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q010/ours.png"
+          "image": "images/questions/q010/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q010/stf.png"
+          "image": "images/questions/q010/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q010/material_fusion.png"
+          "image": "images/questions/q010/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q010/controlnet.png"
+          "image": "images/questions/q010/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q010/ip_adapter.png"
+          "image": "images/questions/q010/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q011",
-      "logo": "images/questions/q011/logo.png",
-      "material": "images/questions/q011/texture.png",
+      "logo": "images/questions/q011/logo.webp",
+      "material": "images/questions/q011/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q011/ours.png"
+          "image": "images/questions/q011/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q011/stf.png"
+          "image": "images/questions/q011/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q011/material_fusion.png"
+          "image": "images/questions/q011/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q011/controlnet.png"
+          "image": "images/questions/q011/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q011/ip_adapter.png"
+          "image": "images/questions/q011/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q012",
-      "logo": "images/questions/q012/logo.png",
-      "material": "images/questions/q012/texture.png",
+      "logo": "images/questions/q012/logo.webp",
+      "material": "images/questions/q012/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q012/ours.png"
+          "image": "images/questions/q012/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q012/stf.png"
+          "image": "images/questions/q012/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q012/material_fusion.png"
+          "image": "images/questions/q012/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q012/controlnet.png"
+          "image": "images/questions/q012/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q012/ip_adapter.png"
+          "image": "images/questions/q012/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q013",
-      "logo": "images/questions/q013/logo.png",
-      "material": "images/questions/q013/texture.png",
+      "logo": "images/questions/q013/logo.webp",
+      "material": "images/questions/q013/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q013/ours.png"
+          "image": "images/questions/q013/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q013/stf.png"
+          "image": "images/questions/q013/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q013/material_fusion.png"
+          "image": "images/questions/q013/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q013/controlnet.png"
+          "image": "images/questions/q013/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q013/ip_adapter.png"
+          "image": "images/questions/q013/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q014",
-      "logo": "images/questions/q014/logo.png",
-      "material": "images/questions/q014/texture.png",
+      "logo": "images/questions/q014/logo.webp",
+      "material": "images/questions/q014/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q014/ours.png"
+          "image": "images/questions/q014/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q014/stf.png"
+          "image": "images/questions/q014/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q014/material_fusion.png"
+          "image": "images/questions/q014/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q014/controlnet.png"
+          "image": "images/questions/q014/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q014/ip_adapter.png"
+          "image": "images/questions/q014/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q015",
-      "logo": "images/questions/q015/logo.png",
-      "material": "images/questions/q015/texture.png",
+      "logo": "images/questions/q015/logo.webp",
+      "material": "images/questions/q015/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q015/ours.png"
+          "image": "images/questions/q015/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q015/stf.png"
+          "image": "images/questions/q015/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q015/material_fusion.png"
+          "image": "images/questions/q015/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q015/controlnet.png"
+          "image": "images/questions/q015/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q015/ip_adapter.png"
+          "image": "images/questions/q015/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q016",
-      "logo": "images/questions/q016/logo.png",
-      "material": "images/questions/q016/texture.png",
+      "logo": "images/questions/q016/logo.webp",
+      "material": "images/questions/q016/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q016/ours.png"
+          "image": "images/questions/q016/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q016/stf.png"
+          "image": "images/questions/q016/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q016/material_fusion.png"
+          "image": "images/questions/q016/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q016/controlnet.png"
+          "image": "images/questions/q016/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q016/ip_adapter.png"
+          "image": "images/questions/q016/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q017",
-      "logo": "images/questions/q017/logo.png",
-      "material": "images/questions/q017/texture.png",
+      "logo": "images/questions/q017/logo.webp",
+      "material": "images/questions/q017/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q017/ours.png"
+          "image": "images/questions/q017/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q017/stf.png"
+          "image": "images/questions/q017/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q017/material_fusion.png"
+          "image": "images/questions/q017/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q017/controlnet.png"
+          "image": "images/questions/q017/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q017/ip_adapter.png"
+          "image": "images/questions/q017/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q018",
-      "logo": "images/questions/q018/logo.png",
-      "material": "images/questions/q018/texture.png",
+      "logo": "images/questions/q018/logo.webp",
+      "material": "images/questions/q018/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q018/ours.png"
+          "image": "images/questions/q018/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q018/stf.png"
+          "image": "images/questions/q018/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q018/material_fusion.png"
+          "image": "images/questions/q018/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q018/controlnet.png"
+          "image": "images/questions/q018/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q018/ip_adapter.png"
+          "image": "images/questions/q018/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q019",
-      "logo": "images/questions/q019/logo.png",
-      "material": "images/questions/q019/texture.png",
+      "logo": "images/questions/q019/logo.webp",
+      "material": "images/questions/q019/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q019/ours.png"
+          "image": "images/questions/q019/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q019/stf.png"
+          "image": "images/questions/q019/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q019/material_fusion.png"
+          "image": "images/questions/q019/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q019/controlnet.png"
+          "image": "images/questions/q019/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q019/ip_adapter.png"
+          "image": "images/questions/q019/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q020",
-      "logo": "images/questions/q020/logo.png",
-      "material": "images/questions/q020/texture.png",
+      "logo": "images/questions/q020/logo.webp",
+      "material": "images/questions/q020/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q020/ours.png"
+          "image": "images/questions/q020/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q020/stf.png"
+          "image": "images/questions/q020/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q020/material_fusion.png"
+          "image": "images/questions/q020/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q020/controlnet.png"
+          "image": "images/questions/q020/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q020/ip_adapter.png"
+          "image": "images/questions/q020/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q021",
-      "logo": "images/questions/q021/logo.png",
-      "material": "images/questions/q021/texture.png",
+      "logo": "images/questions/q021/logo.webp",
+      "material": "images/questions/q021/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q021/ours.png"
+          "image": "images/questions/q021/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q021/stf.png"
+          "image": "images/questions/q021/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q021/material_fusion.png"
+          "image": "images/questions/q021/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q021/controlnet.png"
+          "image": "images/questions/q021/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q021/ip_adapter.png"
+          "image": "images/questions/q021/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q022",
-      "logo": "images/questions/q022/logo.png",
-      "material": "images/questions/q022/texture.png",
+      "logo": "images/questions/q022/logo.webp",
+      "material": "images/questions/q022/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q022/ours.png"
+          "image": "images/questions/q022/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q022/stf.png"
+          "image": "images/questions/q022/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q022/material_fusion.png"
+          "image": "images/questions/q022/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q022/controlnet.png"
+          "image": "images/questions/q022/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q022/ip_adapter.png"
+          "image": "images/questions/q022/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q023",
-      "logo": "images/questions/q023/logo.png",
-      "material": "images/questions/q023/texture.png",
+      "logo": "images/questions/q023/logo.webp",
+      "material": "images/questions/q023/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q023/ours.png"
+          "image": "images/questions/q023/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q023/stf.png"
+          "image": "images/questions/q023/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q023/material_fusion.png"
+          "image": "images/questions/q023/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q023/controlnet.png"
+          "image": "images/questions/q023/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q023/ip_adapter.png"
+          "image": "images/questions/q023/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q024",
-      "logo": "images/questions/q024/logo.png",
-      "material": "images/questions/q024/texture.png",
+      "logo": "images/questions/q024/logo.webp",
+      "material": "images/questions/q024/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q024/ours.png"
+          "image": "images/questions/q024/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q024/stf.png"
+          "image": "images/questions/q024/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q024/material_fusion.png"
+          "image": "images/questions/q024/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q024/controlnet.png"
+          "image": "images/questions/q024/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q024/ip_adapter.png"
+          "image": "images/questions/q024/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q025",
-      "logo": "images/questions/q025/logo.png",
-      "material": "images/questions/q025/texture.png",
+      "logo": "images/questions/q025/logo.webp",
+      "material": "images/questions/q025/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q025/ours.png"
+          "image": "images/questions/q025/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q025/stf.png"
+          "image": "images/questions/q025/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q025/material_fusion.png"
+          "image": "images/questions/q025/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q025/controlnet.png"
+          "image": "images/questions/q025/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q025/ip_adapter.png"
+          "image": "images/questions/q025/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q026",
-      "logo": "images/questions/q026/logo.png",
-      "material": "images/questions/q026/texture.png",
+      "logo": "images/questions/q026/logo.webp",
+      "material": "images/questions/q026/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q026/ours.png"
+          "image": "images/questions/q026/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q026/stf.png"
+          "image": "images/questions/q026/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q026/material_fusion.png"
+          "image": "images/questions/q026/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q026/controlnet.png"
+          "image": "images/questions/q026/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q026/ip_adapter.png"
+          "image": "images/questions/q026/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q027",
-      "logo": "images/questions/q027/logo.png",
-      "material": "images/questions/q027/texture.png",
+      "logo": "images/questions/q027/logo.webp",
+      "material": "images/questions/q027/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q027/ours.png"
+          "image": "images/questions/q027/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q027/stf.png"
+          "image": "images/questions/q027/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q027/material_fusion.png"
+          "image": "images/questions/q027/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q027/controlnet.png"
+          "image": "images/questions/q027/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q027/ip_adapter.png"
+          "image": "images/questions/q027/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q028",
-      "logo": "images/questions/q028/logo.png",
-      "material": "images/questions/q028/texture.png",
+      "logo": "images/questions/q028/logo.webp",
+      "material": "images/questions/q028/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q028/ours.png"
+          "image": "images/questions/q028/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q028/stf.png"
+          "image": "images/questions/q028/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q028/material_fusion.png"
+          "image": "images/questions/q028/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q028/controlnet.png"
+          "image": "images/questions/q028/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q028/ip_adapter.png"
+          "image": "images/questions/q028/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q029",
-      "logo": "images/questions/q029/logo.png",
-      "material": "images/questions/q029/texture.png",
+      "logo": "images/questions/q029/logo.webp",
+      "material": "images/questions/q029/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q029/ours.png"
+          "image": "images/questions/q029/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q029/stf.png"
+          "image": "images/questions/q029/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q029/material_fusion.png"
+          "image": "images/questions/q029/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q029/controlnet.png"
+          "image": "images/questions/q029/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q029/ip_adapter.png"
+          "image": "images/questions/q029/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q030",
-      "logo": "images/questions/q030/logo.png",
-      "material": "images/questions/q030/texture.png",
+      "logo": "images/questions/q030/logo.webp",
+      "material": "images/questions/q030/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q030/ours.png"
+          "image": "images/questions/q030/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q030/stf.png"
+          "image": "images/questions/q030/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q030/material_fusion.png"
+          "image": "images/questions/q030/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q030/controlnet.png"
+          "image": "images/questions/q030/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q030/ip_adapter.png"
+          "image": "images/questions/q030/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q031",
-      "logo": "images/questions/q031/logo.png",
-      "material": "images/questions/q031/texture.png",
+      "logo": "images/questions/q031/logo.webp",
+      "material": "images/questions/q031/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q031/ours.png"
+          "image": "images/questions/q031/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q031/stf.png"
+          "image": "images/questions/q031/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q031/material_fusion.png"
+          "image": "images/questions/q031/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q031/controlnet.png"
+          "image": "images/questions/q031/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q031/ip_adapter.png"
+          "image": "images/questions/q031/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q032",
-      "logo": "images/questions/q032/logo.png",
-      "material": "images/questions/q032/texture.png",
+      "logo": "images/questions/q032/logo.webp",
+      "material": "images/questions/q032/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q032/ours.png"
+          "image": "images/questions/q032/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q032/stf.png"
+          "image": "images/questions/q032/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q032/material_fusion.png"
+          "image": "images/questions/q032/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q032/controlnet.png"
+          "image": "images/questions/q032/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q032/ip_adapter.png"
+          "image": "images/questions/q032/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q033",
-      "logo": "images/questions/q033/logo.png",
-      "material": "images/questions/q033/texture.png",
+      "logo": "images/questions/q033/logo.webp",
+      "material": "images/questions/q033/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q033/ours.png"
+          "image": "images/questions/q033/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q033/stf.png"
+          "image": "images/questions/q033/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q033/material_fusion.png"
+          "image": "images/questions/q033/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q033/controlnet.png"
+          "image": "images/questions/q033/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q033/ip_adapter.png"
+          "image": "images/questions/q033/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q034",
-      "logo": "images/questions/q034/logo.png",
-      "material": "images/questions/q034/texture.png",
+      "logo": "images/questions/q034/logo.webp",
+      "material": "images/questions/q034/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q034/ours.png"
+          "image": "images/questions/q034/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q034/stf.png"
+          "image": "images/questions/q034/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q034/material_fusion.png"
+          "image": "images/questions/q034/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q034/controlnet.png"
+          "image": "images/questions/q034/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q034/ip_adapter.png"
+          "image": "images/questions/q034/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q035",
-      "logo": "images/questions/q035/logo.png",
-      "material": "images/questions/q035/texture.png",
+      "logo": "images/questions/q035/logo.webp",
+      "material": "images/questions/q035/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q035/ours.png"
+          "image": "images/questions/q035/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q035/stf.png"
+          "image": "images/questions/q035/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q035/material_fusion.png"
+          "image": "images/questions/q035/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q035/controlnet.png"
+          "image": "images/questions/q035/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q035/ip_adapter.png"
+          "image": "images/questions/q035/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q036",
-      "logo": "images/questions/q036/logo.png",
-      "material": "images/questions/q036/texture.png",
+      "logo": "images/questions/q036/logo.webp",
+      "material": "images/questions/q036/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q036/ours.png"
+          "image": "images/questions/q036/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q036/stf.png"
+          "image": "images/questions/q036/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q036/material_fusion.png"
+          "image": "images/questions/q036/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q036/controlnet.png"
+          "image": "images/questions/q036/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q036/ip_adapter.png"
+          "image": "images/questions/q036/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q037",
-      "logo": "images/questions/q037/logo.png",
-      "material": "images/questions/q037/texture.png",
+      "logo": "images/questions/q037/logo.webp",
+      "material": "images/questions/q037/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q037/ours.png"
+          "image": "images/questions/q037/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q037/stf.png"
+          "image": "images/questions/q037/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q037/material_fusion.png"
+          "image": "images/questions/q037/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q037/controlnet.png"
+          "image": "images/questions/q037/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q037/ip_adapter.png"
+          "image": "images/questions/q037/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q038",
-      "logo": "images/questions/q038/logo.png",
-      "material": "images/questions/q038/texture.png",
+      "logo": "images/questions/q038/logo.webp",
+      "material": "images/questions/q038/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q038/ours.png"
+          "image": "images/questions/q038/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q038/stf.png"
+          "image": "images/questions/q038/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q038/material_fusion.png"
+          "image": "images/questions/q038/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q038/controlnet.png"
+          "image": "images/questions/q038/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q038/ip_adapter.png"
+          "image": "images/questions/q038/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q039",
-      "logo": "images/questions/q039/logo.png",
-      "material": "images/questions/q039/texture.png",
+      "logo": "images/questions/q039/logo.webp",
+      "material": "images/questions/q039/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q039/ours.png"
+          "image": "images/questions/q039/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q039/stf.png"
+          "image": "images/questions/q039/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q039/material_fusion.png"
+          "image": "images/questions/q039/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q039/controlnet.png"
+          "image": "images/questions/q039/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q039/ip_adapter.png"
+          "image": "images/questions/q039/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q040",
-      "logo": "images/questions/q040/logo.png",
-      "material": "images/questions/q040/texture.png",
+      "logo": "images/questions/q040/logo.webp",
+      "material": "images/questions/q040/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q040/ours.png"
+          "image": "images/questions/q040/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q040/stf.png"
+          "image": "images/questions/q040/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q040/material_fusion.png"
+          "image": "images/questions/q040/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q040/controlnet.png"
+          "image": "images/questions/q040/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q040/ip_adapter.png"
+          "image": "images/questions/q040/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q041",
-      "logo": "images/questions/q041/logo.png",
-      "material": "images/questions/q041/texture.png",
+      "logo": "images/questions/q041/logo.webp",
+      "material": "images/questions/q041/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q041/ours.png"
+          "image": "images/questions/q041/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q041/stf.png"
+          "image": "images/questions/q041/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q041/material_fusion.png"
+          "image": "images/questions/q041/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q041/controlnet.png"
+          "image": "images/questions/q041/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q041/ip_adapter.png"
+          "image": "images/questions/q041/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q042",
-      "logo": "images/questions/q042/logo.png",
-      "material": "images/questions/q042/texture.png",
+      "logo": "images/questions/q042/logo.webp",
+      "material": "images/questions/q042/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q042/ours.png"
+          "image": "images/questions/q042/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q042/stf.png"
+          "image": "images/questions/q042/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q042/material_fusion.png"
+          "image": "images/questions/q042/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q042/controlnet.png"
+          "image": "images/questions/q042/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q042/ip_adapter.png"
+          "image": "images/questions/q042/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q043",
-      "logo": "images/questions/q043/logo.png",
-      "material": "images/questions/q043/texture.png",
+      "logo": "images/questions/q043/logo.webp",
+      "material": "images/questions/q043/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q043/ours.png"
+          "image": "images/questions/q043/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q043/stf.png"
+          "image": "images/questions/q043/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q043/material_fusion.png"
+          "image": "images/questions/q043/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q043/controlnet.png"
+          "image": "images/questions/q043/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q043/ip_adapter.png"
+          "image": "images/questions/q043/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q044",
-      "logo": "images/questions/q044/logo.png",
-      "material": "images/questions/q044/texture.png",
+      "logo": "images/questions/q044/logo.webp",
+      "material": "images/questions/q044/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q044/ours.png"
+          "image": "images/questions/q044/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q044/stf.png"
+          "image": "images/questions/q044/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q044/material_fusion.png"
+          "image": "images/questions/q044/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q044/controlnet.png"
+          "image": "images/questions/q044/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q044/ip_adapter.png"
+          "image": "images/questions/q044/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q045",
-      "logo": "images/questions/q045/logo.png",
-      "material": "images/questions/q045/texture.png",
+      "logo": "images/questions/q045/logo.webp",
+      "material": "images/questions/q045/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q045/ours.png"
+          "image": "images/questions/q045/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q045/stf.png"
+          "image": "images/questions/q045/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q045/material_fusion.png"
+          "image": "images/questions/q045/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q045/controlnet.png"
+          "image": "images/questions/q045/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q045/ip_adapter.png"
+          "image": "images/questions/q045/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q046",
-      "logo": "images/questions/q046/logo.png",
-      "material": "images/questions/q046/texture.png",
+      "logo": "images/questions/q046/logo.webp",
+      "material": "images/questions/q046/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q046/ours.png"
+          "image": "images/questions/q046/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q046/stf.png"
+          "image": "images/questions/q046/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q046/material_fusion.png"
+          "image": "images/questions/q046/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q046/controlnet.png"
+          "image": "images/questions/q046/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q046/ip_adapter.png"
+          "image": "images/questions/q046/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q047",
-      "logo": "images/questions/q047/logo.png",
-      "material": "images/questions/q047/texture.png",
+      "logo": "images/questions/q047/logo.webp",
+      "material": "images/questions/q047/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q047/ours.png"
+          "image": "images/questions/q047/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q047/stf.png"
+          "image": "images/questions/q047/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q047/material_fusion.png"
+          "image": "images/questions/q047/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q047/controlnet.png"
+          "image": "images/questions/q047/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q047/ip_adapter.png"
+          "image": "images/questions/q047/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q048",
-      "logo": "images/questions/q048/logo.png",
-      "material": "images/questions/q048/texture.png",
+      "logo": "images/questions/q048/logo.webp",
+      "material": "images/questions/q048/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q048/ours.png"
+          "image": "images/questions/q048/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q048/stf.png"
+          "image": "images/questions/q048/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q048/material_fusion.png"
+          "image": "images/questions/q048/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q048/controlnet.png"
+          "image": "images/questions/q048/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q048/ip_adapter.png"
+          "image": "images/questions/q048/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q049",
-      "logo": "images/questions/q049/logo.png",
-      "material": "images/questions/q049/texture.png",
+      "logo": "images/questions/q049/logo.webp",
+      "material": "images/questions/q049/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q049/ours.png"
+          "image": "images/questions/q049/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q049/stf.png"
+          "image": "images/questions/q049/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q049/material_fusion.png"
+          "image": "images/questions/q049/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q049/controlnet.png"
+          "image": "images/questions/q049/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q049/ip_adapter.png"
+          "image": "images/questions/q049/ip_adapter.webp"
         }
       ]
     },
     {
       "id": "q050",
-      "logo": "images/questions/q050/logo.png",
-      "material": "images/questions/q050/texture.png",
+      "logo": "images/questions/q050/logo.webp",
+      "material": "images/questions/q050/texture.webp",
       "options": [
         {
           "value": "ours",
-          "image": "images/questions/q050/ours.png"
+          "image": "images/questions/q050/ours.webp"
         },
         {
           "value": "stf",
-          "image": "images/questions/q050/stf.png"
+          "image": "images/questions/q050/stf.webp"
         },
         {
           "value": "material_fusion",
-          "image": "images/questions/q050/material_fusion.png"
+          "image": "images/questions/q050/material_fusion.webp"
         },
         {
           "value": "controlnet",
-          "image": "images/questions/q050/controlnet.png"
+          "image": "images/questions/q050/controlnet.webp"
         },
         {
           "value": "ip_adapter",
-          "image": "images/questions/q050/ip_adapter.png"
+          "image": "images/questions/q050/ip_adapter.webp"
         }
       ]
     }

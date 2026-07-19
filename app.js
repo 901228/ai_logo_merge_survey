@@ -1,5 +1,5 @@
 // script.js — 帶「範例起始頁」版本
-const STORAGE_KEY = "ml-image-study-v1";
+const STORAGE_KEY = "ml-image-study-v100";
 const DATA_URL = "./data.json";
 const SUBMIT_ENDPOINT = "https://script.google.com/macros/s/AKfycbyp0w_CL64BH-BfMQS7c6Ym8MtdsimoDiHNp6YiD5ZLhIoVnYLBSkXpeqZYbuvWf47f/exec";
 

@@ -60,30 +60,30 @@ function buildSurvey(cfg) {
 
         <div class="intro-section">
           <h3>研究簡介</h3>
-          <p>您好，感謝您撥冗參與本次的研究問卷。<br>本問卷旨在評估將「品牌 Logo」與<b>真實材質</b>（如刺繡、金屬、皮革等）融合時的視覺表現：好的結果應該讓 Logo 看起來像是真的<b>由該材質製成</b>——材質紋理自然，同時仍能一眼認出原本的 Logo。</p>
+          <p>您好，感謝您撥冗參與本次的研究問卷。<br>本問卷旨在評估將「設計圖案」與<b>真實材質樣本</b>（如刺繡、金屬、皮革等）結合時的視覺表現：好的結果應該讓圖案看起來像是真的<b>由該材質製成</b>——紋理與質感自然，同時仍能一眼認出原本的圖案。</p>
         </div>
 
         <div class="intro-section">
           <h3>任務說明</h3>
-          <p>接下來的每一題，您都會看到「設計圖」（原始 Logo）、「材質圖」（要套用的目標材質），以及由不同方法生成的<b>多張結果圖</b>。<br>請從這些結果圖中，選出您認為<b>整體表現最佳</b>的一張。</p>
+          <p>接下來的每一題，您都會看到「設計圖」（原始圖案）、「材質圖」（要呈現的目標材質樣本），以及由不同方法生成的<b>多張結果圖</b>。<br>請從這些結果圖中，選出您認為<b>整體表現最佳</b>的一張。</p>
         </div>
 
         <div class="intro-section">
           <h3>判斷標準與範例</h3>
           <p style="color:#555; margin: 4px 0 12px;">請綜合考量以下三點，選出<b>整體最佳</b>的一張，沒有標準答案，依您的整體視覺感受即可：</p>
           <ol style="padding-left: 20px; margin: 0 0 16px; color:#555; line-height:1.7;">
-            <li><b>Logo 辨識度</b>：主體的形狀、色彩與重要細節是否清楚保留，能否一眼認出原本的 Logo。</li>
+            <li><b>圖案辨識度</b>：主體的形狀、色彩與重要細節是否清楚保留，能否一眼認出原本的圖案。</li>
             <li><b>材質真實感</b>：是否真實呈現該材質應有的紋理與質感（例如刺繡的線材走向、金屬的光澤反射、皮革的表面紋路與立體感），看起來像真的由該材質製成，而不只是「貼圖」或「印刷」。</li>
-            <li><b>整體協調</b>：Logo 與材質是否自然結合、視覺上平衡，而不是某一方過度壓過另一方。</li>
+            <li><b>整體協調</b>：圖案與材質是否自然結合、視覺上平衡，而不是某一方過度壓過另一方。</li>
           </ol>
           <div class="sampleHeader" style="font-size: 1.2em; color: #27ae60; margin-top: 15px;">✅ 理想的範例</div>
-          <div class="sampleSubHeader">說明：能清楚辨識 Logo 的原始結構與色彩，同時又能真實、自然地呈現該材質的紋理與質感。</div>
+          <div class="sampleSubHeader">說明：能清楚辨識圖案的原始結構與色彩，同時又能真實、自然地呈現該材質的紋理與質感。</div>
           ${goodExampleCardsHTML}
 
-          <div class="sampleHeader" style="font-size: 1.2em; color: #c0392b; margin-top: 30px;">❌ 不理想的融合範例 </div>
+          <div class="sampleHeader" style="font-size: 1.2em; color: #c0392b; margin-top: 30px;">❌ 不理想的範例 </div>
 
           <div class="sampleBlock bad">
-            <div class="sampleSubHeader"><b>1. 結構模糊 :</b> Logo 的輪廓變得模糊、被材質紋理吃掉、重要細節消失，失去了品牌的識別度。</div>
+            <div class="sampleSubHeader"><b>1. 結構模糊 :</b> 圖案的輪廓變得模糊、被材質紋理吃掉、重要細節消失，失去了原本的辨識度。</div>
             <div class="sampleRow">
               <div class="sampleCol"><img class="sampleImg" src="${examples.structureLoss.logo}" alt="設計圖"><div class="sampleLabel">設計圖</div></div>
               <div class="sampleCol"><img class="sampleImg" src="${examples.structureLoss.material}" alt="材質圖"><div class="sampleLabel">材質圖</div></div>
@@ -100,7 +100,7 @@ function buildSurvey(cfg) {
           </div>
 
           <div class="sampleBlock bad">
-            <div class="sampleSubHeader"><b>2. 材質感不足 :</b> Logo 結構雖然清晰，但看起來只是「貼圖 / 印刷」，未能呈現該材質的紋理與立體質感。</div>
+            <div class="sampleSubHeader"><b>2. 材質感不足 :</b> 圖案結構雖然清晰，但看起來只是「貼圖 / 印刷」，未能呈現該材質的紋理與立體質感。</div>
             <div class="sampleRow">
               <div class="sampleCol"><img class="sampleImg" src="${examples.textureLoss.logo}" alt="設計圖"><div class="sampleLabel">設計圖</div></div>
               <div class="sampleCol"><img class="sampleImg" src="${examples.textureLoss.material}" alt="材質圖"><div class="sampleLabel">材質圖</div></div>
@@ -210,9 +210,6 @@ function buildSurvey(cfg) {
         <div>
         第 ${idx + 1} 題
         </div>
-        <!--<div>
-        請綜合考慮 <b>結構</b>（Logo 形狀）、<b>顏色</b>（與設計圖一致性）、<b>材質</b>（紋理是否自然），選出最適合的一張。
-        </div>-->
         <div class="qPairRow">
           <div class="qPairCol">
             <img class="qPairImg" src="${c.material}" alt="material" onerror="this.style.opacity=0.25">
@@ -233,7 +230,7 @@ function buildSurvey(cfg) {
             elements: [
                 { type: "html", name: `${c.id}_intro`, html: intro },
                 {
-                    type: "imagepicker", name: c.id, title: "請比較各張結果圖，選出您認為整體表現最佳的一張（Logo 辨識度 × 材質真實感 × 整體協調）。",
+                    type: "imagepicker", name: c.id, title: "請比較各張結果圖，選出您認為整體表現最佳的一張（圖案辨識度 × 材質真實感 × 整體協調）。",
                     isRequired: true, imageHeight: 250, imageWidth: 250, choicesOrder: "none", showLabel: false, choices
                 }
             ]
@@ -241,7 +238,7 @@ function buildSurvey(cfg) {
     });
 
     const json = {
-        title: cfg.title || "LOGO × 材質 融合問卷",
+        title: cfg.title || "圖案 × 材質 視覺評估問卷",
         firstPageIsStarted: !!(cfg.instructionExamples),
         startSurveyText: "開始作答 ▶", // 若 firstPageIsStarted=true，會出現在第一頁下方
         showProgressBar: "top",

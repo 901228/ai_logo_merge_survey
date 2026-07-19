@@ -43,7 +43,13 @@ def gen_list():
 def copy_image(input_path, output_path):
     from PIL import Image
 
-    Image.open(input_path).resize((512, 512)).save(output_path.with_suffix(".webp"), "webp", lossless=False)
+    try:
+        Image.open(input_path).resize((512, 512)).save(output_path.with_suffix(".webp"), "webp", lossless=False)
+    except Exception:
+        print(f"[{input_path.parent.parent.stem}]: {input_path.stem} not found")
+        Image.open(str(input_path).replace("material_fusion", "material_fusion_cropped").replace("stf", "stf_cropped")).resize(
+            (512, 512)
+        ).save(output_path.with_suffix(".webp"), "webp", lossless=False)
 
 
 def make_list():

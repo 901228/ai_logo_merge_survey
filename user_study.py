@@ -31,6 +31,10 @@ def gen_list():
                         "value": "ip_adapter",
                         "image": f"images/questions/{q_id}/ip_adapter.webp",
                     },
+                    {
+                        "value": "ham",
+                        "image": f"images/questions/{q_id}/ham.webp",
+                    },
                 ],
             }
         )
@@ -66,6 +70,7 @@ def make_list():
     MATERIAL_FUSION = WORKDIR / "baselines" / "material_fusion" / "results"
     CONTROLNET = WORKDIR / "baselines" / "controlnet" / "results"
     IP_ADAPTER = WORKDIR / "baselines" / "ip_adapter" / "results"
+    HAM = Path("C:/Users/User/Downloads/SFTP/full")
 
     LOGOS = ROOT / "data" / "logos" / "image"
     TEXTURES = ROOT / "data" / "textures" / "image"
@@ -90,10 +95,11 @@ def make_list():
 
         copy_image(CONTROLNET / result, dest / "controlnet.png")
         copy_image(IP_ADAPTER / result, dest / "ip_adapter.png")
+        copy_image(HAM / f"{logo}__{texture}.png", dest / "ham.png")
 
-        result = result.replace("brass_convex", "brass_convex_nobbox_0_60").replace(
-            "chain_stitch_white_padding_outpainting", "chain_stitch_white_padding_outpainting_nobbox_0_60"
-        )
+        # result = result.replace("brass_convex", "brass_convex_nobbox_0_60").replace(
+        #     "chain_stitch_white_padding_outpainting", "chain_stitch_white_padding_outpainting_nobbox_0_60"
+        # )
         copy_image(STF / result, dest / "stf.png")
         copy_image(MATERIAL_FUSION / result, dest / "material_fusion.png")
 

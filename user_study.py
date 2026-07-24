@@ -70,12 +70,12 @@ def make_list():
     MATERIAL_FUSION = WORKDIR / "baselines" / "material_fusion" / "results"
     CONTROLNET = WORKDIR / "baselines" / "controlnet" / "results"
     IP_ADAPTER = WORKDIR / "baselines" / "ip_adapter" / "results"
-    HAM = Path("C:/Users/User/Downloads/SFTP/full")
+    HAM = WORKDIR / "baselines" / "ham" / "results"
 
     LOGOS = ROOT / "data" / "logos" / "image"
     TEXTURES = ROOT / "data" / "textures" / "image"
 
-    images: List[Tuple[str, str, str]] = []
+    images: List[Tuple[str, str]] = []
     with open(Path(__file__).parent / "list.csv", "r") as f:
         reader = csv.reader(f)
         for row in [row for row in reader][1:]:
@@ -86,11 +86,11 @@ def make_list():
     images_root = Path(__file__).parent / "images" / "questions"
     images_root.mkdir(exist_ok=True, parents=True)
 
-    for i, (logo, texture, result) in enumerate(tqdm(images)):
+    for i, (logo, texture) in enumerate(tqdm(images)):
         dest = images_root / f"q{i + 1:03d}"
         dest.mkdir(exist_ok=True, parents=True)
 
-        result = f"{result}.png"
+        result = f"{texture}_{logo}.png"
         copy_image(OURS / texture / f"{logo}.png", dest / "ours.png")
 
         copy_image(CONTROLNET / result, dest / "controlnet.png")
